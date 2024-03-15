@@ -1,0 +1,3 @@
+SET @no := 0;
+UPDATE admin SET id = @no := (@no+1);
+ALTER TABLE admin AUTO_INCREMENT = 1;
